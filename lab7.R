@@ -37,3 +37,15 @@ mean(wind)
 sd(wind)
 
 #Q10
+IQR(wind)
+
+#Q11
+freq<-table(day,month)
+print(freq)
+
+#Q12
+mean(temp[month=="sep"])
+#to get the average temprature of the september month
+
+#Q13
+freq<-table(day,month)
